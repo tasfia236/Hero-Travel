@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,600;1,700;1,900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px 16px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+}
+.header-title > img{
+    width: 48px;
+    height: 56.008px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 5px;
+    margin-left: 115px;
+}
+#navbar{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+.active{
+    color: #FF5400;
+}
+
+/* Section 1 Style */
+
+.section1{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.section1-content{
+    padding-top: 60px;
+    margin: 20px;
+    text-align: center;
+}
+.section1-text *{
+    color: #FFF;
+    text-align: center;
+    margin: 20px;
+}
+.section1-info1{
+    font-size: 64px;
+    font-weight: 800;
+}
+.section1-info2{
+    font-size: 16px;
+    font-weight: 400;
+    width: 676px;
+    margin-left: 11rem;
+}
+.section1-input{
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin: 20px;
+}
+.input-section{
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    text-align: center;
+    width: 174px;
+    height: 52px;
+}
+.btn-primary{
+    background-color: #FF5400;
+    border-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    padding-top: 0.8rem;
+}
+.btn-primary img{
+    width: 20px;
+    height: 20px;
+}
+.section2-container{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Travel-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.Travel-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+    margin: 20px 0px;
+
+}
+.section2-image > img{  
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+
+/* Responsive Style */
+@media screen and (max-width: 600px){
+    *{
+        margin: 0 10px;
+        max-width: 480px;
+    }
+    .header{
+        width: 100%;
+    }
+    .header-title > img{
+        width: 28.724px;
+        height: 33.516px;
+        padding-left: 40px;
+    }
+    .header-title{
+        font-size: 21px;
+    }
+    nav{
+        display: none;
+    }
+    #navbar{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 60px;
+    }
+    .section1{
+        margin: 0 auto;
+        width: 335px;
+        height: 483px;
+    }
+    .section1-content{
+        padding: 5px;
+    }
+    .section1-text{
+        margin: 0px;
+    }
+    .section1-info1{
+        font-size: 22px;
+    }
+    .section1-info2{
+        font-size: 14px;
+        width: 304px;
+        margin-left: 0;
+    }
+    .section1-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    .Travel-title{
+        font-size: 20px;
+    }
+    .Travel-description{
+        font-size: 14px;
+        width: 280px;
+        margin-left: 10px;
+    }
+    .section2-image > img{
+        width: 335px;
+        height: 342px;
+        margin-top: 20px;
+    }
+}
