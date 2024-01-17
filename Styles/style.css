@@ -1,45 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,600;1,700;1,900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
-   
+
 
 }
-.btn{
+
+.btn {
     border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-border: none;
-padding: 16px 25px;
-font-size: 16px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    padding: 16px 25px;
+    font-size: 16px;
     font-weight: 700;
-text-align: center;
-font-size: 20px;
+    text-align: center;
+    font-size: 20px;
 }
-header{
+
+header {
     max-width: 1120px;
     margin: 30px auto;
     /* display: flex;
   
    justify-content: space-between; */
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.header-title{
+
+.header-title {
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: 30px;
 }
-.header-title > img{
+
+.header-title>img {
     width: 48px;
     height: 56.008px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,25 +52,28 @@ nav{
     font-weight: 400;
     gap: 10px;
 
-    
+
 }
-#navbar{
+
+#navbar {
     display: none;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:  #424247;
+    color: #424247;
 }
-.active{
+
+.active {
     color: #FF5400;
 }
 
 /* Section 1 Style */
 
-.section1{
+.section1 {
     max-width: 1120px;
     margin: 0px auto;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13.png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13.png');
     background-repeat: no-repeat;
     border-radius: 16px;
     background-position: center;
@@ -73,27 +81,32 @@ nav a{
     width: 100%;
     height: 500px;
 }
-.section1-content{
+
+.section1-content {
     padding-top: 60px;
     margin: 20px;
     text-align: center;
 }
-.section1-text *{
+
+.section1-text * {
     color: #FFF;
     text-align: center;
     margin: 20px;
 }
-.section1-info1{
+
+.section1-info1 {
     font-size: 64px;
     font-weight: 800;
 }
-.section1-info2{
+
+.section1-info2 {
     font-size: 16px;
     font-weight: 400;
-    
-    
+
+
 }
-.section1-input{
+
+.section1-input {
     display: inline-flex;
     padding: 16px;
     justify-content: center;
@@ -103,14 +116,16 @@ nav a{
     background-color: rgba(255, 255, 255, 0.30);
     margin: 20px;
 }
-.input-section{
+
+.input-section {
     color: rgba(19, 19, 24, 0.50);
     border-radius: 8px;
     text-align: center;
     width: 174px;
     height: 52px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FF5400;
     border-color: #FF5400;
     color: #FFF;
@@ -120,11 +135,13 @@ nav a{
     padding-top: 0.8rem;
     padding-left: 32px;
 }
-.btn-primary img{
+
+.btn-primary img {
     width: 20px;
     height: 20px;
 }
-.section2-container{
+
+.section2-container {
     max-width: 1120px;
     margin: 30px auto;
 
@@ -132,12 +149,14 @@ nav a{
     justify-content: space-between;
     align-items: center;
 }
-.Travel-title{
+
+.Travel-title {
     font-size: 40px;
     font-weight: 800;
     color: #131318;
 }
-.Travel-description{
+
+.Travel-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -145,79 +164,93 @@ nav a{
     margin: 20px 0px;
 
 }
-.section2-image > img{  
+
+.section2-image>img {
     width: 540px;
     height: 550px;
     border-radius: 16px;
 }
-.section2{
+
+.section2 {
     margin-top: 60px;
 }
 
 
 /* section 2 style stared here */
-.section-2{
+.section-2 {
     margin-top: 40px;
     max-width: 1120px;
     margin: 30px auto;
 }
+
 .section-2 * {
     margin-bottom: 10px;
 }
-.section2-content > h3{
+
+.section2-content>h3 {
     color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.section2-content > p{
+
+.section2-content>p {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 }
-.section2-image-1{
+
+.section2-image-1 {
     display: flex;
     gap: 10px;
-   
+
 }
-.section2-image-1 > img{
+
+.section2-image-1>img {
     width: 550px;
 }
-.section2-image-2{
+
+.section2-image-2 {
     display: flex;
-    gap:10px;
-   
+    gap: 10px;
+
 }
-.section2-image-2 > img{
+
+.section2-image-2>img {
     width: 430px;
 }
-.section2-image-3{
+
+.section2-image-3 {
     display: flex;
-    gap:10px
+    gap: 10px
 }
-.section2-image-3 > img{
+
+.section2-image-3>img {
     width: 560px;
 }
-.mal{
+
+.mal {
     display: inline-block;
     position: relative;
     top: 180px;
     left: 200px;
     color: #FFF;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
 }
-.indo{
+
+.indo {
     display: inline-block;
-    position:relative;
+    position: relative;
     top: 210px;
     left: 800px;
     color: #FFF;
@@ -225,19 +258,21 @@ font-weight: 800;
     font-style: normal;
     font-weight: 800;
 }
-.sri{
+
+.sri {
     display: inline-block;
-    position:relative;
+    position: relative;
     top: 520px;
     left: 0px;
     color: #FFF;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
 }
-.na{
+
+.na {
     display: inline-block;
-    position:relative;
+    position: relative;
     top: 525px;
     left: 270px;
     color: #FFF;
@@ -245,9 +280,10 @@ font-weight: 800;
     font-style: normal;
     font-weight: 800;
 }
-.kas{
+
+.kas {
     display: inline-block;
-    position:relative;
+    position: relative;
     top: 525px;
     left: 450px;
     color: #FFF;
@@ -255,97 +291,109 @@ font-weight: 800;
     font-style: normal;
     font-weight: 800;
 }
-.bd{
+
+.bd {
     display: inline-block;
-    position:relative;
+    position: relative;
     bottom: 200px;
     left: 150px;
     color: #FFF;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
-  
- 
+
+
 }
 
-.ba{
+.ba {
     display: inline-block;
-    position:relative;
+    position: relative;
     bottom: 200px;
     left: 500px;
     color: #FFF;
     font-size: 28px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700;
 }
 
 
 /* Section 3 Style */
-.section-3{
+.section-3 {
     margin-top: 40px;
     max-width: 1120px;
     margin: 30px auto;
 }
-.section-3-card{
+
+.section-3-card {
     display: flex;
     gap: 4%;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.card1{
+
+.card1 {
     width: 48%;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 15px;
 }
-.card1 *{
+
+.card1 * {
     margin-bottom: 10px;
 }
-.card1 >h4{
+
+.card1>h4 {
     color: #131318;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.card2{
+
+.card2 {
     width: 48%;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 15px;
 }
-.card2 >h4{
+
+.card2>h4 {
     color: #131318;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.card2 *{
+
+.card2 * {
     margin-bottom: 10px;
 }
-.card3{
-   max-width: 500px;
-   margin: 0px auto;
+
+.card3 {
+    max-width: 500px;
+    margin: 0px auto;
     align-items: center;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 15px;
 }
-.card3 >h4{
+
+.card3>h4 {
     color: #131318;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.card3 *{
+
+.card3 * {
     margin-bottom: 10px;
 }
-.section-3-content > h3{
+
+.section-3-content>h3 {
     margin-top: 30px;
     color: #131318;
     text-align: center;
@@ -355,44 +403,50 @@ line-height: normal;
     font-weight: 800;
     line-height: normal;
 }
-.section-3-content > p{
+
+.section-3-content>p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.section-3 *{
-    margin-bottom: 20px;
+
+.section-3 * {
+    margin-bottom: 20px;
 }
 
 /* section-4 style started here */
-.section4{
+.section4 {
     margin-top: 60px;
     max-width: 1120px;
     margin: 30px auto;
 }
+
 .section-4-content-left {
     border-radius: 16px;
-border: 1px solid #FF5400;
-width: 474px;
-height: 350px;
-padding: 20px;
-padding-top: 50px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 350px;
+    padding: 20px;
+    padding-top: 50px;
 }
-.section-4-content-right >img{
+
+.section-4-content-right>img {
     width: 550px;
     height: 422px;
 }
-.section-4-content{
+
+.section-4-content {
 
     display: flex;
     justify-content: space-between;
 }
 
-.section-4-content-left > h4{
+.section-4-content-left>h4 {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
@@ -400,21 +454,25 @@ padding-top: 50px;
     font-weight: 800;
     line-height: normal;
 }
-.section-4-content-left > p{
+
+.section-4-content-left>p {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
     margin-bottom: 30px;
 }
-hr{
+
+hr {
     margin: 10px 0px;
     width: 84%;
     background: rgba(19, 19, 24, 0.10);
 }
-.section-4-content-left > input{
+
+.section-4-content-left>input {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -422,88 +480,98 @@ hr{
     width: 80%;
 }
 
-.section-4-content-left * { 
+.section-4-content-left * {
     margin-bottom: 10px;
     margin-left: 25px;
 }
-.section-4-btn{
+
+.section-4-btn {
     width: 84%;
 }
 
-.travel{
+.travel {
     padding: 10px;
     position: relative;
     left: 850px;
     bottom: 150px;
     width: 224px;
-height: 80px;
-transform: rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
 }
-.travel > h5{
-    color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 
-}
-  
-.travel >h3{
+.travel>h5 {
     color: #FFF;
     text-align: center;
-font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.travel>h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
 
 /* section5 style started here */
-.section-5{
+.section-5 {
     max-width: 1120px;
     margin: 30px auto;
-    
+
 }
-.section-5-content{
+
+.section-5-content {
     max-width: 1120px;
     margin: 30px auto;
 }
-.upper-content{
+
+.upper-content {
     margin-top: 60px;
     text-align: center;
     margin-bottom: 30px;
 }
-.upper-content > h2 {
+
+.upper-content>h2 {
     margin-bottom: 20px;
 }
-.lower-content{
+
+.lower-content {
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.same{
+
+.same {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 15px;
 }
-.same > p{
+
+.same>p {
     width: 65%;
-   
+
 }
+
 /* footer style started here */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
-    height: 500px;
-    width: 100%;
+
+
 }
-.footer-content{
+
+.footer-content {
     /* background-color: #fc6e6e; */
     max-width: 1000px;
     margin: 0px auto;
@@ -513,198 +581,235 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
-.first{
+
+.first {
     margin-top: 40px;
 }
+
 .footer-content * {
     margin-bottom: 15px;
 }
-.footer-content > hr{
+
+.footer-content>hr {
     width: 60%;
 }
-.bottom-p{
+
+.bottom-p {
     margin-top: 40px;
 }
-.bottom-img{
+
+.bottom-img {
     margin-top: 20px;
 }
-.first{
-display: flex;
-align-items: center;
-gap: 10px;
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.first-p{
+
+.first-p {
     width: 70%;
-    text-align: center;
+    text-align: center;
 }
+
 /* Responsive Style */
-@media screen and (max-width: 600px){
-    
-    header{
+@media screen and (max-width: 600px) {
+
+    header {
         width: 550px;
         margin: 15px 30px;
     }
-    .header-title > img{
-       
-    }
-    .header-title{
+
+    .header-title {
         font-size: 21px;
     }
-    nav{
+
+    nav {
         display: none;
     }
-    #navbar{
+
+    #navbar {
         display: block;
-        
-       
+
+
     }
-    .section1{
+
+    .section1 {
         margin: 0 15px;
-       max-width: 550px;
+        max-width: 550px;
         height: 483px;
     }
-    .section1-content{
+
+    .section1-content {
         padding: 5px;
     }
-    .section1-text{
+
+    .section1-text {
         margin: 0px;
     }
-    .section1-info1{
+
+    .section1-info1 {
         font-size: 22px;
     }
-    .section1-info2{
+
+    .section1-info2 {
         font-size: 14px;
-        
-       
+
+
         text-align: center;
     }
-    .section1-input{
+
+    .section1-input {
         width: 80%;
         display: flex;
         flex-direction: column;
     }
-    .section2-container{
+
+    .section2-container {
         display: flex;
         flex-direction: column;
         width: 550px;
     }
-    .Travel-title{
+
+    .Travel-title {
         font-size: 20px;
     }
-    .Travel-description{
+
+    .Travel-description {
         font-size: 14px;
         margin: 10px 20px;
         width: 100%;
     }
-    .section2-image > img{
+
+    .section2-image>img {
         width: 550px;
         margin-top: 30px;
     }
 
-  /* .........zidadddddd................................. */
-  main{
-    width: 550px;
+
+    main {
+        width: 550px;
         margin: 20px 30px;
-   
-  }
-.section-1{
-   width: 100%;
-    flex-direction: column;
-}
-.section1-content{
-    width: 100%;
-    margin-bottom: 20px;
-}
-.section1-image > img{
-    width: 100%;
-}
-.section2-image-1{
- 
-    flex-direction: column;
-}
-.section2-image-2{
- 
-    flex-direction: column;
-   
-}
-.section2-image-2 > img{
-   width: 550px;
-}
-.section2-image-3{
-     
-    flex-direction: column;
-}
+
+    }
+
+    .section-1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section1-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section1-image>img {
+        width: 100%;
+    }
+
+    .section2-image-1 {
+
+        flex-direction: column;
+    }
+
+    .section2-image-2 {
+
+        flex-direction: column;
+
+    }
+
+    .section2-image-2>img {
+        width: 550px;
+    }
+
+    .section2-image-3 {
+
+        flex-direction: column;
+    }
 
 
-.indo{
-    left: 200px;
-    top: 525px;
-}
-.sri{
-      left: 90px;
-    top: 925px;
-}
-.na{
-    left: 0px;
- 
-    top: 1275px;
-}
-.kas{
-   left: 200px;
-    top: 1750px;
-}
-.bd{
-  
- left: 200px;
-   bottom: 500px;
- 
-}
+    .indo {
+        left: 200px;
+        top: 525px;
+    }
 
-.ba{
-    left: 60px;
-    bottom: 150px;
-}
+    .sri {
+        left: 90px;
+        top: 925px;
+    }
 
+    .na {
+       left: 0px;
 
-.section-3-content{
-    display: flex;
-    flex-direction: column;
-}
-.section-3-card{
-  
-    flex-direction: column;
-}
-.card1{
-    width: 550px;
-    margin-bottom: 15px;
-}
-.card2{
-    width: 550px;
-}
-.card3{
-    width: 600px;
-}
-.section-4-content{
-    flex-direction: column;
-    gap: 20px;
-}
-.travel{
-    left: 280px;
-}
-.first-p {
-    width: 50%;
-}
-.section-5{
-    display: flex;
-    flex-direction: column;
-}
-.section-5-image > img{
- width: 100%;
-}
-footer{
-    width: 650px;
-    
-    }
-}
+        top: 1400px;
+    }
+
+    .kas {
+        left: 200px;
+        top: 1750px;
+    }
+
+    .bd {
+
+        left: 200px;
+        bottom: 500px;
+
+    }
+
+    .ba {
+        left: 60px;
+        bottom: 150px;
+    }
 
 
+    .section-3-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3-card {
+
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: 550px;
+        margin-bottom: 15px;
+    }
+
+    .card2 {
+        width: 550px;
+    }
+
+    .card3 {
+        width: 600px;
+    }
+
+    .section-4-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .travel {
+        left: 280px;
+    }
+
+    .first-p {
+        width: 50%;
+    }
+
+    .section-5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-5-image>img {
+        width: 100%;
+    }
+
+    footer {
+        width: 650px;
+    }
+
+}
